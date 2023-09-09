@@ -1,0 +1,97 @@
+@media(max-width:1170px) {
+
+    /* General  css  */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 01 Navbar css */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem .5rem;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem;
+
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: .2rem;
+        margin-bottom: 1rem;
+    }
+
+    .header .header-right span {
+        padding: .2rem .5rem;
+    }
+
+    /* 02 Banner Section */
+
+   
+    .banner .carousel-item{
+        height: 90vh;
+    }
+}
+
+
+@media(max-width: 991px) {
+
+    /* General  css  */
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+      
+    }
+
+    /* 01 Navbar css */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link {
+        padding: .2rem .5rem;
+        margin-bottom: 1rem;
+    }
+    .header .header-right span {
+        padding: .2rem .5rem;
+    }
+    /* 02 Banner Section */
+}
+
+@media(max-width: 767px) {
+    /* General  css  */
+body,html{
+    font-size: 8px;
+}
+
+.section-subtitle{
+    max-width: 80%;
+}
+    /* 02 Banner Section */
+    .banner{
+        min-height: 70vh;
+    }
+    .banner .carousel-item{
+        height: 70vh;
+    }
+}
+
+@media(max-width: 590px) {
+    /* General  css  */
+    body,html{
+        font-size: 7px;
+    }
+    
+    
+    /* 01 Navbar css */
+
+    /* 02 Banner Section */
+}
+
